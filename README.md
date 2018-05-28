@@ -7,6 +7,9 @@ A docker container to generate Vue app
 ## Generate app
 `docker run --rm -it -p 8080:8080 -v "$PWD":/src vue-cli`
 
+## Generate app
+`docker run --rm -it -p 8080:8080 -v "$PWD":/src vue-cli npm run serve`
+
 ### Note
 Run following to resolve parser issue after running `npm run serve`
 
