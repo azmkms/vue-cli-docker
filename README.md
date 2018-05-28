@@ -2,7 +2,7 @@
 A docker container to run vue cli commands
 
 ## Build
-`docker build -t vue-cli --build-arg UID=$(id -u) --build-arg GID=$(id -g) .`
+`docker build -t vue-cli .`
 
 ## Generate app
 `docker run --rm -it -v $PWD:/src vue-cli vue create app`
