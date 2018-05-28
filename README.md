@@ -11,7 +11,7 @@ A docker container to run vue cli commands
 Run following to resolve parser issue after running `npm run serve` for vue version `3.0.0-beta.11`
 ```
 cd app
-docker run --rm -it -v "$PWD":/src vue-cli npm install -D prettier@1.12.0
+docker run --rm -it -v "$PWD":/src vue-cli npm i -D prettier@1.12.0
 ```
 https://stackoverflow.com/questions/50555953/vue-webpack-template-missing-parser
 
