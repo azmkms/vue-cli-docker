@@ -1,5 +1,5 @@
 # vue-cli-docker
-A docker container to generate Vue app
+A docker container to generate and serve Vue app
 
 ## Build
 `docker build -t vue-cli --build-arg UID=$(id -u) --build-arg GID=$(id -g) .`
